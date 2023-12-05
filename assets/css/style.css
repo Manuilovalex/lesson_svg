@@ -1,0 +1,25 @@
+.colorchange {
+  animation-duration: 3s;
+  animation-name: color;
+  animation-iteration-count: infinite;
+}
+
+.colorchange:hover {
+   animation-play-state: paused;
+}
+
+@keyframes color {
+  0% {
+    fill: yellow;
+    stroke: green;
+  }
+  50% {
+    fill: purple;
+    stroke: orange;
+  }
+  100% {
+    fill: blue;
+    stroke: red;
+  }
+}
+
